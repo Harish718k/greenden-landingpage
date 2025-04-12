@@ -15,9 +15,9 @@
         </div>
         <nav class="hidden md:flex">
             <ul class=" flex w-48 justify-center gap-5 text-gray-700">
-                <li><a href="Home" class="hover:underline hover:text-black">Home</a></li>
-                <li><a href="Product" class="hover:underline hover:text-black">Product</a></li>
-                <li><a href="Contact" class="hover:underline hover:text-black">Contact</a></li>
+                <li><a href="index.html" class="hover:underline hover:text-black">Home</a></li>
+                <li><a href="product.html" class="hover:underline hover:text-black">Product</a></li>
+                <li><a href="contact.html" class="hover:underline hover:text-black">Contact</a></li>
             </ul>
         </nav>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="flex size-6 w-8 md:hidden">
@@ -80,11 +80,11 @@
    </section>
    <section class="best-seller">
         <div class="best-seller-container ">
-            <h1 class="font-bold text-3xl text-center py-5">Best Seller</h1>
-            <div class="product-container px-8 flex gap-7 justify-center">
+            <h1 class="font-bold text-3xl text-center py-10">Best Seller</h1>
+            <div class="product-container px-8 flex justify-evenly flex-wrap sm:flex-nowrap gap-3">
                 <div class="product-card">
                     <div class="image" >
-                        <img src="img/bestseller_1.jpg" alt="" class="rounded min-w-64" >
+                        <img src="img/bestseller_1.jpg" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     </div>
                     <div class="details text-center">
                         <p>Rose Plant</p>
@@ -93,33 +93,66 @@
                 </div>
                 <div class="product-card">
                     <div class="image" >
-                        <img src="img/bestseller_1.jpg" alt="" class="rounded" >
+                        <img src="img/bestseller_2.jpg" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
                     </div>
                     <div class="details text-center">
-                        <p>Rose Plant</p>
+                        <p>Lily Plant</p>
                         <p>$20</p>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="image" >
-                        <img src="img/bestseller_1.jpg" alt="" class="rounded" >
+                        <img src="img/bestseller_3.png" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
                     </div>
                     <div class="details text-center">
-                        <p>Rose Plant</p>
+                        <p>Hibiscus Rose</p>
                         <p>$20</p>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="image" >
-                        <img src="img/bestseller_1.jpg" alt="" class="rounded" >
+                        <img src="img/bestseller_4.png" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
                     </div>
                     <div class="details text-center">
-                        <p>Rose Plant</p>
+                        <p>New pet plant</p>
                         <p>$20</p>
                     </div>
                 </div>
             </div>
         </div>
    </section>
+   <section class="customer-review">
+    <div class="review-container py-10">
+        <h1 class="font-bold text-3xl text-center py-5">Customer Reviews</h1>
+        <div class="review-card-container px-5 flex flex-col gap-10">
+            <div class="review-card text-start text-white bg-green-900 p-2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nostrum dolorum magni vero ducimus deleniti vitae quasi quis quod? Culpa ipsam soluta assumenda inventore voluptas a. Et saepe error magni?</p>
+                <span class="font-bold text-yellow-500">Genny Mathew</span>
+            </div>
+            <div class="review-card text-start text-white bg-green-900 p-2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nostrum dolorum magni vero ducimus deleniti vitae quasi quis quod? Culpa ipsam soluta assumenda inventore voluptas a. Et saepe error magni?</p>
+                <span class="font-bold text-yellow-500">Jim</span>
+            </div>
+            <div class="review-card text-start text-white bg-green-900 p-2">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla nostrum dolorum magni vero ducimus deleniti vitae quasi quis quod? Culpa ipsam soluta assumenda inventore voluptas a. Et saepe error magni?</p>
+                <span class="font-bold text-yellow-500">Parker</span>
+            </div>
+        </div>
+        
+    </div>
+   </section>
+   <section class="subscribe">
+        <div class="subscribe-container text-center flex flex-col items-center">
+            <h1 class="font-bold text-3xl pt-5 ">Join our news letter</h1>
+            <p>Signup for our email newspaper to get exclusive discounts,updates and more</p>
+            <input type="text" class="p-2 border border-black w-2/3 my-4">
+            <button class="p-3 bg-black text-white underline ">Subscribe</button>
+        </div>
+   </section>
+   <footer class="p-10 bg-green-100 mt-4">
+        <h1 class="font-bold text-4xl text-3xl pb-4">Greenden</h1>
+        <p class="pb-4">The standard chunk of lorem ipsum used since the 1500s is reprodeced below for those interest in the nature.</p>
+        <p>&COPY; 2024 Greenday.com</p>
+   </footer>
 </body>
 </html>

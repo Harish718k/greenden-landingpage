@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Responsive Navbar -->
+    <header class="bg-green-100 p-3 flex justify-between items-center px-4 z-10 shadow-md fixed w-full shadow-lg top-0">
+        <div class="logo relative">
+            <h1 class="text-2xl">Greenden</h1>
+        </div>
+        <nav class="hidden md:flex">
+            <ul class=" flex w-48 justify-center gap-5 text-gray-700">
+                <li><a href="index.html" class="hover:underline hover:text-black">Home</a></li>
+                <li><a href="product.html" class="hover:underline hover:text-black">Product</a></li>
+                <li><a href="Contact" class="hover:underline hover:text-black">Contact</a></li>
+            </ul>
+        </nav>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="flex size-6 w-8 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+          </svg>
+          
+        <menu class="hidden w-1/3 bg-green-100 h-full text-center p-8 absolute right-0 top-0">
+            <ul class="flex w-48 flex-col gap-5 text-gray-700">
+                <li><a href="Home" class="hover:underline hover:text-black">Home</a></li>
+                <li><a href="Product" class="hover:underline hover:text-black">Product</a></li>
+                <li><a href="Contact" class="hover:underline hover:text-black">Contact</a></li>
+            </ul>
+        </menu>
+   </header> 
+   <section class="product mt-20">
+        <div class="product container flex flex-col items-center">
+            <h1 class="text-3xl py-5 font-bold">Our Products</h1>
+            <input type="text" placeholder="Search for a Product..." class="p-2 border border-black w-3/4 min-w-40 mb-5">
+            <div class="product-card-container px-5 gap-10 md:gap-4 grid grid-cols-2 md:grid-cols-4">
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_1.jpg" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
+                    </div>
+                    <div class="details text-center">
+                        <p>Rose Plant</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_2.jpg" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
+                    </div>
+                    <div class="details text-center">
+                        <p>Lily Plant</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_3.png" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
+                    </div>
+                    <div class="details text-center">
+                        <p>Hibiscus Rose</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_4.png" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
+                    </div>
+                    <div class="details text-center">
+                        <p>New pet plant</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_1.jpg" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
+                    </div>
+                    <div class="details text-center">
+                        <p>Rose Plant</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_2.jpg" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
+                    </div>
+                    <div class="details text-center">
+                        <p>Lily Plant</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_3.png" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
+                    </div>
+                    <div class="details text-center">
+                        <p>Hibiscus Rose</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="image" >
+                        <img src="img/bestseller_4.png" alt="" class="rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl"  >
+                    </div>
+                    <div class="details text-center">
+                        <p>New pet plant</p>
+                        <p>$20</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+   </section>
+   <footer class="p-10 bg-green-100 mt-4">
+        <h1 class="font-bold text-4xl text-3xl pb-4">Greenden</h1>
+        <p class="pb-4">The standard chunk of lorem ipsum used since the 1500s is reprodeced below for those interest in the nature.</p>
+        <p>&COPY; 2024 Greenday.com</p>
+    </footer>
+</body>
+</html>
