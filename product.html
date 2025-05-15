@@ -24,11 +24,11 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
         </svg>
           
-        <menu id="menu" class="hidden md:hidden w-1/2 z-20 bg-green-100 h-screen text-center p-8 absolute top-0 right-0 transition-transform ease-in-out duration-700 ">
+        <menu id="menu" class="md:hidden w-1/2 z-20 bg-green-100 h-screen text-center p-8 absolute top-0 transition-all ease-in-out duration-700 cursor-pointer" style="right: -50%;">
             <span ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="closeBtn" class="size-6 w-6 text-gray-400 relative -top-8 left-32 cursor-pointer hover:text-black">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-            </svg>
-            </span>
+              </svg>
+              </span>
             <ul class="text-gray-700">
                 <li class="mb-8"><a href="index.html" class="hover:underline hover:text-black nav-link">Home</a></li>
                 <li class="mb-8 nav-link"><a href="product.html" class="hover:underline hover:text-black nav-link">Product</a></li>
@@ -40,44 +40,44 @@
    <section class="product mt-20 w-full">
         <div class="product-container text-center">
             <h1 class="text-3xl py-5 font-bold">Our Products</h1>
-            <input type="text" placeholder="Search for a Product..." class="p-2 border border-black w-3/4 min-w-40 mb-5">
+            <input type="text" placeholder="Search for a Product..." id="searchBar" class="p-2 border border-black w-3/4 min-w-40 mb-5">
             <div class="product-card-container px-5 gap-4 grid grid-cols-2 md:grid-cols-4">
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_1.jpg" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>Rose Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_2.jpg" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>Lily Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_3.png" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>Hibiscus Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_4.png" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>New Pet Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_1.jpg" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>Rose Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_2.jpg" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>Lily Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_3.png" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>Hibiscus Plant</p>
                     <p>$20</p>
                 </div>  
-                <div>
+                <div class="product-item">
                     <img src="img/bestseller_4.png" alt="" class="inline rounded transition-transform duration-300 transform hover:-translate-y-3 hover:shadow-xl" >
                     <p>New Pet Plant</p>
                     <p>$20</p>
